@@ -1,0 +1,332 @@
+.login { 
+ background: url(../img/loginbg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; 
+}
+
+.material-icons{
+	color: var(--light);
+}
+
+.login .form-control, .login .custom-select, .login .form-control-file {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.42);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.87);
+
+}
+
+.login ::placeholder{
+	  color: rgba(255, 255, 255,  0.87);
+}
+
+.navbar-dark{
+	background-color: var(--simpertronik);
+	
+}
+
+.navbar-brand:not(:first-child){
+	margin-left:0;
+}
+
+.navbar{
+	padding-left:.325rem
+}
+
+.navdrawer-header{
+	height:30%;
+	background: url(../img/bannerdrawer.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.border-light{
+	border-color:var(--simpertronik)!important;
+}
+
+.navdrawer-nav .nav-link.active, .navdrawer-nav .nav-link:active{
+	color:var(--simpertronik);
+}
+
+.navdrawer-nav .nav-link{
+	color:var(--simpertronik);
+}
+
+.main .ngambang{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:var(--simpertronik);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:99;
+}
+
+.log .ngambang{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:var(--simpertronik);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:99;
+}
+
+.my-ngambang{
+	margin-top:22px;
+}
+
+.main .navdrawer-nav .material-icons{
+	color:var(--simpertronik);
+}
+
+.main .adsl {
+	position:fixed; bottom:2%;
+}
+
+.main .adsr {
+	position:fixed; top:4%; right:17%;
+}
+
+.main .btn {
+	box-shadow:0 0 0 0 rgba(0,0,0,0), 0 3px 4px 0 rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);
+}
+
+.main .btn:focus {
+	background-color:var(--simpertronik);
+}
+
+.main .form-control, .login .custom-select, .login .form-control-file {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.42);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.87);
+
+}
+
+.main ::placeholder{
+	  color: rgba(255, 255, 255,  0.87);
+}
+
+.simpertronik-theme{
+	color:var(--simpertronik);
+}
+
+.main .isi em{
+	font-size:0.75em;
+}
+
+.main .overlay{
+	opacity:0;
+    filter: alpha(opacity = 0);
+    position:absolute;
+    top:0; bottom:0; left:0; right:0;
+    display:block;
+    z-index:2;
+    background:transparent;
+	width:100%;
+	height:100%;
+}
+
+.forward .form-control, .forward .custom-select, .forward  .form-control-file{
+	background-color: transparent;
+  border-color: var(--simpertronik)
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  color: rgba(000, 000, 000, 0.84);
+}
+
+.log { 
+ background: url(../img/loginbg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+
+}
+
+.cbp_tmtimeline {
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+}
+
+.cbp_tmtimeline > li {
+	position: relative;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	font-size: 0.9em;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	background: #fff;
+	color: var(--simpertronik);
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #3594cb;
+	border-width: 10px;
+	top: 10px;
+}
+
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #46a4da;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.cbp_tmicon-phone:before {
+	content: "\e000";
+}
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 45%;
+		border-right-color: transparent;
+		border-bottom-color: #fff;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}	
+}
+
+.log .badge-light{
+	background-color:#fff;
+	color:var(--simpertronik);
+}
+
+.log .badge-primary{
+	background-color:var(--cyan);
+}
